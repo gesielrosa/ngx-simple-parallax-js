@@ -11,6 +11,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-simple-parallax-js": [
+        "dist/ngx-simple-parallax-js/ngx-simple-parallax-js",
+        "dist/ngx-simple-parallax-js"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
