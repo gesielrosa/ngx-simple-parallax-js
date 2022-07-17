@@ -1,4 +1,4 @@
-![NgxSimpleParallaxJs logo](https://github.com/gesielrosa/ngx-simple-parallax-js/blob/main/logo.png)
+![NgxSimpleParallaxJs logo](https://raw.githubusercontent.com/gesielrosa/ngx-simple-parallax-js/main/logo.png)
 
 # NgxSimpleParallaxJs
 
