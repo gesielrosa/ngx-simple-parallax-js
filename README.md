@@ -1,4 +1,4 @@
-![NgxSimpleParallaxJs logo](https://github.com/gesielrosa/ngx-simple-parallax-js/tree/main/projects/ngx-simple-parallax-js/logo.png)
+![NgxSimpleParallaxJs logo](https://github.com/gesielrosa/ngx-simple-parallax-js/blob/main/logo.png)
 
 # NgxSimpleParallaxJs
 
@@ -22,14 +22,11 @@ Then, import NgxSimpleParallaxJsModule into a module of your Angular app.
 import { NgxSimpleParallaxJsModule } from 'ngx-simple-parallax-js';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    NgxSimpleParallaxJsModule
-  ]
-  exports: []
+  // ...
+  imports: [NgxSimpleParallaxJsModule]
+  // ...
 })
-export class YourModule {
-}
+export class YourModule {}
 ```
 
 ### Using directive
@@ -37,7 +34,7 @@ export class YourModule {
 In images:
 
 ```html
- <img parallax class="thumbnail" src="image.jpg" alt="image">
+ <img parallax src="image.jpg" alt="image">
 ```
 
 In videos:
